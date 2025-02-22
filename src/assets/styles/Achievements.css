@@ -1,0 +1,96 @@
+/* Achievements Section */
+.achievements-container {
+    max-width: 1024px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .achievements-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Timeline structure */
+  .achievements-timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 3px solid #007bff;
+  }
+  
+  .achievement-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .achievement-icon-container {
+    position: absolute;
+    left: -53px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .achievement-icon {
+    font-size: 24px;
+  }
+  
+  /* Icon Colors */
+  .trophy {
+    color: gold;
+  }
+  
+  /* Achievement Content */
+  .achievement-content {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .achievement-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .achievement-level {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .achievement-content p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .achievement-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .achievement-link:hover {
+    text-decoration: underline;
+  }
+  
